@@ -4,4 +4,5 @@ How to run:
 
 1.  Build the project using "mvn install" from inside the root folder.
 2.  Go into the newly created "target" folder.
-3.  Run the following command: "java -cp DictionarySearch-1.0-SNAPSHOT.jar org.kprager.search.concurrent.Main [scrabble_letters]"
+3.  Run the following command: 
+    java -cp DictionarySearch-1.0.jar org.kprager.search.concurrent.MultithreadedSearch [scrabble_letters]
